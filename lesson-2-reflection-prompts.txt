@@ -7,16 +7,24 @@ Git recognises the folder as a repository and you can start tracking your progre
   
 The staging area is a place where only git can access and it is a way to store files prior to add them to the repository. I think it is middle stage and lets you think twice in case you forget something or want to remove a file before committing.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+- How can you use the staging area to make sure you have one commit per logical
+  change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+I think the best way to use is as a storage place to put all the modified files related to a specific change, then commit to the change.
+  
+- What are some situations when branches would be helpful in keeping your history
+  organized? How would branches help?
+  
+For instance branches would be great if you want to try a new code that you are not too confident about or a new feature that you want to work on a bit before implementing it officially, then a branch would allow you to work in parallel.
 
-How do the diagrams help you visualize the branch structure?
+- How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+Diagrams are great as it is a very visual way of understanding branches, you can see the whole picture, and in what commit did a branch separate from the master branch and if there is any unreachable commit that we should get rid of.
+
+- What is the result of merging two branches together? Why do we represent it in
+  the diagram the way we do?
+  
+When we merge we join the branches, so both ways are integrated into one. We represent it like that on the diagram so we can see the branches as they were before merging and their respective commits.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
