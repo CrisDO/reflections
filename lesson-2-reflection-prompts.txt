@@ -26,5 +26,7 @@ Diagrams are great as it is a very visual way of understanding branches, you can
   
 When we merge we join the branches, so both ways are integrated into one. We represent it like that on the diagram so we can see the branches as they were before merging and their respective commits.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+- What are the pros and cons of Git's automatic merging vs. always doing merges
+  manually?
+
+Git's automatic merging is great because you can just click a button and the merge will be done for you, and in most cases it will be just fine. But when you have done changes to the same part of the code in two different branches then Git wouldn't know which one you want to keep, and that's when it will ask you to pick one and commit to it.
