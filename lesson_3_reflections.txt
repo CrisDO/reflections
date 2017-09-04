@@ -9,3 +9,8 @@ Just in case I have been working on both my local folder and GitHub and need to 
 - Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
 Fork is when you pin a repository on GitHub from someone else onto your folder, you can still see the original author and the commits you have done after you forked it. Cloning allows you to copy a repository on your workspace including the history of commits so you can access all the different versions of the files, but once it is on your folder then you can no longer view who the original author was. Branches are separate ways of continuing with your project, you can do them on your local workspace and work in parallel. 
+
+- What is the benefit of having a copy of the last known state of the remote stored locally?
+
+On the one hand, it will allow you to keep track of the changes you have made on local compared to the last state of the remote. On the other hand it will help Git as it will serve as a common point when trying to update in both ways.
+
