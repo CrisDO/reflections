@@ -17,3 +17,7 @@ On the one hand, it will allow you to keep track of the changes you have made on
 - How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
 I guess I would be using emails or shared drives, trying to make sure people would leave comments every time they modified anything (using text files or spreadsheets), but it would be really hard to keep track of everything.
+
+- When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+When I want someone else to approve my changes before committing to them, or when I am not too sure if my changes will do any good in a long term for the project, or want to try a new functionality before making it official. I can work in parallel and can keep it that way until I am confident it will be ok to join the master branch.
