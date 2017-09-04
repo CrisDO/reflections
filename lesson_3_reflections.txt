@@ -5,3 +5,7 @@ I think the best would be to do so when you expect to be working on different ma
 - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Just in case I have been working on both my local folder and GitHub and need to change the name of a file or move some stuff around before syncing my repositories.
+
+- Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Fork is when you pin a repository on GitHub from someone else onto your folder, you can still see the original author and the commits you have done after you forked it. Cloning allows you to copy a repository on your workspace including the history of commits so you can access all the different versions of the files, but once it is on your folder then you can no longer view who the original author was. Branches are separate ways of continuing with your project, you can do them on your local workspace and work in parallel. 
