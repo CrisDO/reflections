@@ -14,3 +14,6 @@ Fork is when you pin a repository on GitHub from someone else onto your folder, 
 
 On the one hand, it will allow you to keep track of the changes you have made on local compared to the last state of the remote. On the other hand it will help Git as it will serve as a common point when trying to update in both ways.
 
+- How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+I guess I would be using emails or shared drives, trying to make sure people would leave comments every time they modified anything (using text files or spreadsheets), but it would be really hard to keep track of everything.
